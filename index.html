@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape Genie</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.svg">
+</head>
+<body>
+    <!-- Banner -->
+      <div class="flex mx-auto py-2 justify-between items-center bg-gray-200">
+            <div class="flex gap-8 mx-10">
+                <img class="w-5 hover:w-6" src="./assets/fb-icon.svg" alt="">
+                <img class="w-5 hover:w-6" src="./assets/ig-icon.svg" alt="">
+            </div>
+            <div class="flex gap-8 mx-10 ">
+                <div class="flex items-center gap-2">
+                    <img class="w-5" src="./assets/location_on_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <a href="#service-area">Service Area</a>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-5" src="./assets/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <a href="mailto:landscapegenie13@gmail.com" target="_blank">landscapegenie13@gmail.com</a>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-5" src="./assets/call_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <a href="tel:954-554-9247">+1(954) 554-9247</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Hero section -->
+      <div id="hero" 
+      class="pb-48 w-full h-full bg-center bg-contain" 
+      style="background-image: url(./assets/hero-img.jpg);">
+          <!-- Navbar -->
+          <div class="flex justify-between items-center px-8 py-4 bg-bgColorHeader95">
+              <!-- Logo -->
+              <div>
+                  <img class="w-56" src="./assets/lg-logo-light.svg" alt="">
+              </div>
+              <!-- Menu -->
+              <div class="flex items-center gap-12">
+                  <a class="text-lg text-slate-300 hover:text-greenHover" href="#">Home</a>
+                  <a class="text-lg text-slate-300 hover:text-greenHover" href="#services">Services</a>
+                  <a class="text-lg text-slate-300 hover:text-greenHover" href="#about">About</a>
+                  <!-- <a class="text-lg text-slate-300 hover:text-greenHover" href="#">Project Gallery</a> -->
+                  <!-- <a class="text-lg text-slate-300 hover:text-greenHover" href="#">Reviews</a> -->
+                  <a class="text-lg text-slate-300 hover:text-greenHover" href="#contact">Contact</a>
+                  <button class="bg-btnGreen hover:bg-greenHover text-white py-2 px-4 rounded-full" onclick="window.location='#contact';">Free Quote</button>
+              </div>
+          </div>
+
+          <!-- Hero content -->
+          <div class="py-10 pl-14 bg-bgColorHeader95 rounded-sm mx-8 mt-48 w-3/5">
+              <!-- Title -->
+              <h1 class="font-semibold text-5xl text-slate-100 ">
+                Transform Your Outdoor Space <br> With 
+                The Touch Of A Genie
+              </h1>
+              <!-- Sub-heading -->
+              <p class="text-xl font-light mt-6 text-gray-300">
+                Expert Lawn and Garden Care by Landscape Genie: Fort Lauderdale's Premier
+                Lawn <br> Maintenance Service
+              </p>
+              <button 
+                onclick="window.location='#contact';"
+                class="bg-btnGreen hover:bg-greenHover text-white py-3 px-6 rounded-full mt-8"
+                >
+                Request an Estimate
+              </button>
+          </div>
+      </div>
+
+      <!-- Service section -->
+      <div id="services" class="py-16">
+          <!-- Service intro -->
+          <div class="flex justify-between mx-8 pb-20">
+            <div>
+                <p class="mb-4 text-pColor">PREMIER LAWN MAINTENANCE SERVICE</p>
+                <h2 class="text-bgColorHeader">Services</h2>
+              </div>
+              <div class="w-1/2 text-pColor">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Volutpat blandit 
+                    aliquam etiam erat velit. Fusce id velit ut tortor pretium viverra 
+                    suspendisse potenti. Gravida rutrum quisque non tellus orci ac.
+                </p>
+              </div>
+          </div>
+          <!-- Services -->
+          <div class="flex justify-center gap-4 mx-8">
+              <!-- Service 1 -->
+              <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                  <img class="fi fill-bgColorHeader"  src="./assets/lawn-mower-30.png" alt="">
+                  <h2 class="text-xl py-4 text-bgColorHeader">Lawn Maintenance</h2>
+                  <p class="text-pColor">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                    pellentesque diam volutpat commodo sed egestas egestas.
+                  </p>
+              </div>
+
+              <!-- Service 2 -->
+              <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                <img  src="./assets/trimming.png" alt="">
+                <h2 class="text-xl py-4" text-bgColorHeader>Hedge Trimming</h2>
+                <p class="text-pColor">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                  pellentesque diam volutpat commodo sed egestas egestas.
+                </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                <img  src="./assets/grass-30.png" alt="">
+                <h2 class="text-xl py-4 text-bgColorHeader">Sod Installation</h2>
+                <p class="text-pColor">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                  pellentesque diam volutpat commodo sed egestas egestas.
+                </p>
+            </div>
+          </div>
+
+          <div class="flex justify-center gap-4 mx-8 mt-4">
+               <!-- Service 4 -->
+            <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                <img  src="./assets/garden-sprinkler-30.png" alt="">
+                <h2 class="text-xl py-4 text-bgColorHeader">Irrigation Repair</h2>
+                <p class="text-pColor">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                  pellentesque diam volutpat commodo sed egestas egestas.
+                </p>
+            </div>
+               <!-- Service 5 -->
+               <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                <img  src="./assets/leaf-30.png" alt="">
+                <h2 class="text-xl py-4 text-bgColorHeader">Clean Ups</h2>
+                <p class="text-pColor">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                  pellentesque diam volutpat commodo sed egestas egestas.
+                </p>
+            </div>
+               <!-- Service 6 -->
+               <div class="w-1/5 px-6 py-8 border border-btnGreen rounded-xl hover:border-none hover:shadow-2xl">
+                <img  src="./assets/garden-30.png" alt="">
+                <h2 class="text-xl py-4 text-bgColorHeader">General Garden</h2>
+                <p class="text-pColor">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quisque egestas diam in arcu cursus euismod quis. Et odio 
+                  pellentesque diam volutpat commodo sed egestas egestas.
+                </p>
+            </div>
+          </div>
+      </div>
+
+      <!-- About Section -->
+      <div id="about" class="flex justify-between items-center px-8 py-16">
+        <div class="" style="width: 50%;">
+          <p class="text-pColor">WHY CHOOSE US</p>
+          <h2 class="text-bgColorHeader mb-4">
+            Every Lawn requires <span class="text-btnGreen">personalized</span> attention
+          </h2>
+          <p class="mb-4 text-pColor">
+            My name is Jose I have over 10 years of experience in the gardening 
+            and landscaping industry. I am passionate about delivering top-quality 
+            work on every project we take on and we're committed to exceeding our 
+            clients' expectations. I have a strong work ethic, which has helped me 
+            build a solid reputation as a reliable and trustworthy business.
+          </p>
+          <p class="text-pColor">
+            I am proud of the fact that my business is small and personal, 
+            which allows me to give each of our clients the individualized 
+            attention they deserve. If you're looking for a professional 
+            and reliable gardening and landscaping service, look no further 
+            than our company. My team and I are dedicated to delivering the 
+            best possible results on every job they take on.
+          </p>
+        </div>
+        <div class="img w-2/6 rounded-xl">
+          <img class="rounded-xl" src="./assets/about-section.jpeg" alt="">
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div id="contact" class="flex gap-8 w-10/12 mx-auto bg-bgColorHeader rounded-xl mt-14 mb-28 text-white">
+        <div class="w-1/2 py-8 px-6">
+          <h2 class="">Get a Quote</h2>
+          <p class="mb-8">
+            Thank you for considering Landscape Genie for your outdoor project needs. 
+            We pride ourselves on delivering exceptional quality and customer satisfaction.
+          </p>
+          
+        </div>
+        <div class="w-1/2 rounded-tr-xl rounded-br-xl bg-bgColor py-8 px-6">
+          <div class="mb-6">
+            <input type="text" id="username-success" class="bg-gray-50 border border-btnGreen text-green-900 placeholder-gray-400 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-400" placeholder="Full Name">
+          </div>
+          <!-- <label for="email-address-icon" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label> -->
+          <div class="mb-6">
+            <input type="email" id="username-success" class="bg-gray-50 border border-btnGreen text-green-900 placeholder-gray-400 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-400" placeholder="Email">
+          </div>
+          <div class="mb-6">
+            <input type="text" id="username-success" class="bg-gray-50 border border-btnGreen text-green-900 placeholder-gray-400 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-400" placeholder="Phone">
+          </div>
+          <div class="mb-6">
+            <!-- <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label> -->
+            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-800 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message"></textarea>
+          </div>
+
+          <button class="bg-btnGreen hover:bg-greenHover text-white py-2 px-4 rounded-full">Submit</button>
+        </div>
+      </div>
+
+      <!-- Service area -->
+      <div id="service-area" class="flex justify-between items-center gap-8 w-10/12 mx-auto mt-14 mb-28">
+        <div>
+          <h2 class="text-bgColorHeader">Service Area</h2>
+          <ul class="text-pColor">
+            <li>Fort Lauderdale</li>
+            <li>Davie</li>
+            <li>Las Olas</li>
+            <li>Pompano</li>
+          </ul>
+        </div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Fort%20Lauderdale&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+      </div>
+
+      <!-- Footer Section -->
+      <div class="flex justify-between px-8 py-12 border-t text-xs">
+        <div class="w-1/5">
+          <img class="w-36" src="./assets/lg-logo-dark.svg" alt="">
+          <p class="pt-6 text-pColor">
+            Thank you for considering Landscape Genie for your outdoor project needs. 
+            We pride ourselves on delivering exceptional quality and customer satisfaction.
+          </p>
+        </div>
+        <div class="w-1/5">
+          <p class="font-semibold text-bgColorHeader mb-6">CONTACT INFO</p>
+          <div class="flex gap-2 items-center mb-1 text-pColor">
+            <img class="w-5" src="./assets/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <a href="mailto:landscapegenie13@gmail.com" target="_blank">landscapegenie13@gmail.com</a>
+        </div>
+        <div class="flex items-center gap-2 text-pColor">
+            <img class="w-5" src="./assets/call_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <a href="tel:954-554-9247">+1(954) 554-9247</a>
+        </div>
+        </div>
+        <div class="w-1/5">
+          <P class="font-semibold text-bgColorHeader mb-6">NAVIGATION</P>
+          <p><a class="text-pColor hover:text-greenHover" href="#hero">Home</a></p>
+          <p><a class="text-pColor hover:text-greenHover" href="#services">Services</a></p>
+          <p><a class="text-pColor hover:text-greenHover" href="#about">About</a></p>
+          <!-- <p><a class="hover:text-greenHover" href="#">Project Gallery</a></p> -->
+          <!-- <p><a class="hover:text-greenHover" href="#">Reviews</a></p> -->
+          <p><a class="text-pColor hover:text-greenHover" href="#contact">Contact</a></p>
+        </div>
+        <div class="w-1/5">
+          <p class="font-semibold text-bgColorHeader mb-4">SOCIAL MEDIA</p>
+          <p class="text-pColor"><a href="">Facebook</a></p>
+          <p class="text-pColor"><a href="">Instagram</a></p>
+        </div>
+      </div>
+</body>
+</html>
